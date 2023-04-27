@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"io/ioutil"
+	"log"
 	"net/http"
 	"os"
 	"strings"
@@ -12,6 +13,7 @@ import (
 )
 
 const baseURL = "https://xargin.com"
+const mdFilename = "xargin_blogs.md"
 
 type BlogPost struct {
 	Title       string
@@ -24,29 +26,51 @@ func main() {
 	startURL, firstPostTitle := getFirstPostURLAndTitle()
 	previousPosts, isFirstPostAlreadyCrawled := loadPreviousPosts(firstPostTitle)
 
-	file, err := os.Create("xargin_blogs.md")
+	// 创建或打开文件
+	file, err := os.OpenFile(mdFilename, os.O_CREATE|os.O_RDWR, 0644)
 	if err != nil {
 		panic(err)
 	}
 	defer file.Close()
 
 	now := time.Now().Format("2006-01-02 15:04")
-	totalPosts := len(previousPosts)
 
 	if isFirstPostAlreadyCrawled {
 		fmt.Println("The first post on the homepage has already been crawled.")
-	} else {
-		blogPosts := crawlBlogPosts(startURL)
-		previousPosts = append(previousPosts, blogPosts...)
-		totalPosts = len(previousPosts)
+		updateTimestampInFile(mdFilename)
+		return
 	}
 
-	fmt.Fprintln(file, fmt.Sprintf("页面更新时间：%s\n文章总数：%d\n", now, totalPosts))
+	blogPosts := crawlBlogPosts(startURL)
+	previousPosts = append(previousPosts, blogPosts...)
+	totalPosts := len(previousPosts)
+
+	fmt.Fprintf(file, "页面更新时间：%s\n文章总数：%d\n", now, totalPosts)
 	fmt.Fprintln(file, "| 序号 | 文章 | 发表时间 | 阅读时间 |")
 	fmt.Fprintln(file, "| --- | --- | --- | --- |")
 
 	for index, post := range previousPosts {
 		fmt.Fprintf(file, "| %d | [%s](%s) | %s | %s |\n", totalPosts-index, post.Title, post.URL, post.PublishDate, post.ReadTime)
+	}
+}
+
+func updateTimestampInFile(filename string) {
+	currentTime := time.Now().Format("2006-01-02 15:04")
+
+	fileData, err := ioutil.ReadFile(filename)
+	if err != nil {
+		log.Fatalf("Error reading file: %v", err)
+	}
+
+	lines := strings.Split(string(fileData), "\n")
+	if len(lines) > 0 {
+		lines[0] = "页面更新时间：" + currentTime
+	}
+
+	updatedFileData := strings.Join(lines, "\n")
+	err = ioutil.WriteFile(filename, []byte(updatedFileData), 0644)
+	if err != nil {
+		log.Fatalf("Error writing file: %v", err)
 	}
 }
 
