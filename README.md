@@ -1,6 +1,6 @@
 # xargin-blog-crawler
 
-xargin-blog-crawler 是一个用 Go 编写的博客爬虫，定期抓取并更新 xargin.com 上的文章信息。
+xargin-blog-crawler 是一个用 Go 编写的博客爬虫，定期抓取并更新 [xargin.com](https://xargin.com) 上的文章信息。
 
 ## 功能
 
