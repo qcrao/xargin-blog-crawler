@@ -30,4 +30,4 @@ jobs:
           commit_message: "Update xargin_blogs.md"
           branch: master
           file_pattern: xargin_blogs.md
-          github_token: ${{ secrets.GH_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
