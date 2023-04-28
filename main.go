@@ -33,7 +33,9 @@ func main() {
 	}
 	defer file.Close()
 
-	now := time.Now().Format("2006-01-02 15:04")
+	// 使用 UTC+8 北京时间
+	loc, _ := time.LoadLocation("Asia/Shanghai")
+        now := time.Now().In(loc).Format("2006-01-02 15:04")
 
 	if isFirstPostAlreadyCrawled {
 		fmt.Println("The first post on the homepage has already been crawled.")
@@ -55,7 +57,9 @@ func main() {
 }
 
 func updateTimestampInFile(filename string) {
-	currentTime := time.Now().Format("2006-01-02 15:04")
+	// 使用 UTC+8 北京时间
+    	loc, _ := time.LoadLocation("Asia/Shanghai")
+    	currentTime := time.Now().In(loc).Format("2006-01-02 15:04")
 
 	fileData, err := ioutil.ReadFile(filename)
 	if err != nil {
