@@ -70,7 +70,7 @@ func updateTimestampInFile(filename string) {
 
 	lines := strings.Split(string(fileData), "\n")
 	if len(lines) > 0 {
-		lines[0] = fmt.Spritf("页面更新时间（北京时间）：%s\n", currentTime)
+		lines[0] = fmt.Sprintf("页面更新时间（北京时间）：%s\n", currentTime)
 	}
 
 	updatedFileData := strings.Join(lines, "\n")
