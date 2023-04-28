@@ -47,7 +47,8 @@ func main() {
 	previousPosts = append(previousPosts, blogPosts...)
 	totalPosts := len(previousPosts)
 
-	fmt.Fprintf(file, "页面更新时间（北京时间）：%s\n\n文章总数：%d\n", now, totalPosts)
+	fmt.Fprintf(file, "页面更新时间（北京时间）：%s\n", now)
+	fmt.Fprintf(file, "文章总数：%d\n", totalPosts)	
 	fmt.Fprintln(file, "| 序号 | 文章 | 发表时间 | 阅读时间 |")
 	fmt.Fprintln(file, "| --- | --- | --- | --- |")
 
