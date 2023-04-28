@@ -47,7 +47,7 @@ func main() {
 	previousPosts = append(previousPosts, blogPosts...)
 	totalPosts := len(previousPosts)
 
-	fmt.Fprintf(file, "页面更新时间：%s\n文章总数：%d\n", now, totalPosts)
+	fmt.Fprintf(file, "页面更新时间（北京时间）：%s\n\n文章总数：%d\n", now, totalPosts)
 	fmt.Fprintln(file, "| 序号 | 文章 | 发表时间 | 阅读时间 |")
 	fmt.Fprintln(file, "| --- | --- | --- | --- |")
 
@@ -68,7 +68,7 @@ func updateTimestampInFile(filename string) {
 
 	lines := strings.Split(string(fileData), "\n")
 	if len(lines) > 0 {
-		lines[0] = "页面更新时间：" + currentTime
+		lines[0] = "页面更新时间（北京时间）：" + currentTime
 	}
 
 	updatedFileData := strings.Join(lines, "\n")
