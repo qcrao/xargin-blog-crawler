@@ -23,9 +23,6 @@ type BlogPost struct {
 }
 
 func main() {
-	startURL, firstPostTitle := getFirstPostURLAndTitle()
-	previousPosts, isFirstPostAlreadyCrawled := loadPreviousPosts(firstPostTitle)
-
 	// 创建或打开文件
 	file, err := os.OpenFile(mdFilename, os.O_CREATE|os.O_RDWR, 0644)
 	if err != nil {
@@ -35,32 +32,32 @@ func main() {
 
 	// 使用 UTC+8 北京时间
 	loc, _ := time.LoadLocation("Asia/Shanghai")
-        now := time.Now().In(loc).Format("2006-01-02 15:04")
+	now := time.Now().In(loc).Format("2006-01-02 15:04")
 
-	if isFirstPostAlreadyCrawled {
+	startURL, firstPostTitle := getFirstPostURLAndTitle()
+	if isFirstPostAlreadyCrawled(firstPostTitle) {
 		fmt.Println("The first post on the homepage has already been crawled.")
 		updateTimestampInFile(mdFilename)
 		return
 	}
 
 	blogPosts := crawlBlogPosts(startURL)
-	previousPosts = append(previousPosts, blogPosts...)
-	totalPosts := len(previousPosts)
+	totalPosts := len(blogPosts)
 
 	fmt.Fprintf(file, "页面更新时间（北京时间）：%s\n", now)
-	fmt.Fprintf(file, "文章总数：%d\n", totalPosts)	
+	fmt.Fprintf(file, "文章总数：%d\n", totalPosts)
 	fmt.Fprintln(file, "| 序号 | 文章 | 发表时间 | 阅读时长 |")
 	fmt.Fprintln(file, "| --- | --- | --- | --- |")
 
-	for index, post := range previousPosts {
-		fmt.Fprintf(file, "| %d | [%s](%s) | %s | %s |\n", totalPosts-index, post.Title, post.URL, post.PublishDate, post.ReadTime)
+	for index, post := range blogPosts {
+		fmt.Fprintf(file, "| %d | [%s](%s) | %s | %s |\n", totalPosts-index, post.Title, post.URL, post.PublishDate, strings.TrimSuffix(strings.TrimSpace(post.ReadTime), "read"))
 	}
 }
 
 func updateTimestampInFile(filename string) {
 	// 使用 UTC+8 北京时间
-    	loc, _ := time.LoadLocation("Asia/Shanghai")
-    	currentTime := time.Now().In(loc).Format("2006-01-02 15:04")
+	loc, _ := time.LoadLocation("Asia/Shanghai")
+	currentTime := time.Now().In(loc).Format("2006-01-02 15:04")
 
 	fileData, err := ioutil.ReadFile(filename)
 	if err != nil {
@@ -97,43 +94,20 @@ func getFirstPostURLAndTitle() (string, string) {
 	return baseURL + postURL, postTitle
 }
 
-func loadPreviousPosts(firstPostTitle string) ([]BlogPost, bool) {
-	previousPosts := []BlogPost{}
-	isFirstPostAlreadyCrawled := false
-
+func isFirstPostAlreadyCrawled(firstPostTitle string) bool {
 	content, err := ioutil.ReadFile("xargin_blogs.md")
 	if err != nil {
-		return previousPosts, isFirstPostAlreadyCrawled
+		return false
 	}
 
 	lines := strings.Split(string(content), "\n")
 	for _, line := range lines {
 		if strings.Contains(line, firstPostTitle) {
-			isFirstPostAlreadyCrawled = true
-		}
-		if strings.HasPrefix(line, "| [") {
-			parts := strings.Split(line, "|")
-			postTitleAndURL := strings.TrimSpace(parts[1])
-			postTitleAndURL = strings.TrimPrefix(postTitleAndURL, "[")
-			postTitleAndURL = strings.TrimSuffix(postTitleAndURL, ")")
-
-			title := strings.Split(postTitleAndURL, "](")[0]
-			url := strings.Split(postTitleAndURL, "](")[1]
-
-			publishDate := strings.TrimSpace(parts[2])
-			readTime := strings.TrimSpace(parts[3])
-
-			post := BlogPost{
-				Title:       title,
-				PublishDate: publishDate,
-				ReadTime:    readTime,
-				URL:         url,
-			}
-			previousPosts = append(previousPosts, post)
+			return true
 		}
 	}
 
-	return previousPosts, isFirstPostAlreadyCrawled
+	return false
 }
 
 func crawlBlogPosts(url string) []BlogPost {
