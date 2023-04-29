@@ -33,4 +33,4 @@ jobs:
         with:
           commit_message: "Update xargin_blogs.md"
           branch: master
-          file_pattern: xargin_blogs.md
+          push_options: --force
