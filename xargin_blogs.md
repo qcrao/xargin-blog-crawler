@@ -2,7 +2,7 @@
 
 文章总数：174
 
-| 序号 | 文章 | 发表时间 | 阅读时间 |
+| 序号 | 文章 | 发表时间 | 阅读时长 |
 | --- | --- | --- | --- |
 | 174 | [中台 2023](https://xargin.com/complete-deah-for-middleplatform/) | 2023-04-24 | 8 min read |
 | 173 | [给面试官一点小小的 gpt 震撼](https://xargin.com/the-death-of-baguwen/) | 2023-03-26 | 4 min read |
