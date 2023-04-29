@@ -1,7 +1,9 @@
-页面更新时间（北京时间）：2023-04-30 00:02
+页面更新时间（北京时间）：2023-04-30 00:04
+
 文章总数：174
 | 序号 | 文章 | 发表时间 | 阅读时长 |
 | --- | --- | --- | --- |
+| 174 | [中台 2023](https://xargin.com/complete-deah-for-middleplatform/) | 2023-04-24 | 8 min  |
 | 173 | [给面试官一点小小的 gpt 震撼](https://xargin.com/the-death-of-baguwen/) | 2023-03-26 | 4 min  |
 | 172 | [下一次工业革命近在眼前了](https://xargin.com/winter-is-coming/) | 2023-02-11 | 7 min  |
 | 171 | [Google 用了十年的 subset 算法被换掉了](https://xargin.com/google-rocksteadier-subset/) | 2022-12-10 | 10 min  |
