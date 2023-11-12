@@ -1,122 +1,124 @@
-页面更新时间（北京时间）：2023-11-12 16:18
+页面更新时间（北京时间）：2023-11-12 17:13
 
-文章总数：175
+文章总数：115
 | 序号 | 文章 | 发表时间 | 阅读时长 |
 | --- | --- | --- | --- |
-| 175 | [杂谈](https://xargin.com/misc/) | 2023-07-30 | 6 min  |
-| 174 | [中台 2023](https://xargin.com/complete-deah-for-middleplatform/) | 2023-04-24 | 8 min  |
-| 173 | [给面试官一点小小的 gpt 震撼](https://xargin.com/the-death-of-baguwen/) | 2023-03-26 | 4 min  |
-| 172 | [下一次工业革命近在眼前了](https://xargin.com/winter-is-coming/) | 2023-02-11 | 7 min  |
-| 171 | [Google 用了十年的 subset 算法被换掉了](https://xargin.com/google-rocksteadier-subset/) | 2022-12-10 | 10 min  |
-| 170 | [sarama producer hang 又一例](https://xargin.com/sarama-producer-hang-another-case/) | 2022-11-06 | 8 min  |
-| 169 | [微服务税](https://xargin.com/microservice-tax-and-grpc-mock/) | 2022-10-16 | 7 min  |
-| 168 | [平台到底有什么价值](https://xargin.com/value-of-platform/) | 2022-09-03 | 7 min  |
-| 167 | [aws 上 kafka 服务更新导致断连一例](https://xargin.com/aws-produce-hang-case/) | 2022-08-20 | 11 min  |
-| 166 | [为什么大公司讲的效率如此虚伪](https://xargin.com/what-they-say-is-not-true/) | 2022-07-16 | 11 min  |
-| 165 | [怎样提升研发效率(1)](https://xargin.com/how-to-improve-dev-efficiency/) | 2022-06-25 | 7 min  |
-| 164 | [go-redis 和 redis server 版本错位导致的高延时问题一例](https://xargin.com/go-redis-v6-and-redis-server-6-are-not-compatible/) | 2022-06-19 | 8 min  |
-| 163 | [memory ballast 和 gc tuner 成为历史](https://xargin.com/the-new-api-for-heap-limit/) | 2022-06-13 | 3 min  |
-| 162 | [为什么要旗帜鲜明地反对 orm 和 sql builder](https://xargin.com/you-should-avoid-orm-and-sql-builder/) | 2022-06-05 | 7 min  |
-| 161 | [Go 语言的 GC 实现分析](https://xargin.com/impl-of-go-gc/) | 2022-04-08 | 21 min  |
-| 160 | [自动调整 GOGC 优化 GO 的 GC CPU 占用](https://xargin.com/dynamic-gogc/) | 2022-01-10 | 9 min  |
-| 159 | [为什么你不应该接受有 race 的代码](https://xargin.com/why-you-should-reject-racy-code/) | 2021-12-25 | 3 min  |
-| 158 | [是什么影响了我的接口延迟](https://xargin.com/why-queueing-theory/) | 2021-12-14 | 5 min  |
-| 157 | [lyft 的线下开发环境秘籍](https://xargin.com/lyft-offline-env/) | 2021-12-12 | 4 min  |
-| 156 | [三份优化相关的材料](https://xargin.com/some-recent-opt-share/) | 2021-12-04 | 1 min  |
-| 155 | [2020 年学到了什么](https://xargin.com/what-i-learn-at-alibaba/) | 2021-11-29 | 17 min  |
-| 154 | [Software engineering at Google 笔记(二)](https://xargin.com/software-engineering-at-google-part2/) | 2021-11-24 | 16 min  |
-| 153 | [Software Engineering at Google 笔记(一)](https://xargin.com/software-engineering-at-google-part1/) | 2021-11-08 | 4 min  |
-| 152 | [DDD 到底是垃圾还是银弹](https://xargin.com/is-ddd-garbage-or-silver-bullet/) | 2021-10-29 | 12 min  |
-| 151 | [怎么快速读完一本书](https://xargin.com/how-to-read-fast/) | 2021-10-20 | 5 min  |
-| 150 | [Stop Reading The News](https://xargin.com/stop-reading-the-news/) | 2021-10-05 | 7 min  |
-| 149 | [righting software 读书笔记](https://xargin.com/righting-software-notes/) | 2021-09-23 | 19 min  |
-| 148 | [关于复杂度的一些想法](https://xargin.com/something-about-complexity/) | 2021-09-15 | 9 min  |
-| 147 | [云原生如何使我们失业](https://xargin.com/cloud-native-and-future-of-developer/) | 2021-09-05 | 9 min  |
-| 146 | [简单看看 Go 1.17 的新调用规约](https://xargin.com/go1-17-new-calling-convention/) | 2021-08-29 | 5 min  |
-| 145 | [Google 的 “行星级” cron 系统设计](https://xargin.com/google-cron-design/) | 2021-08-15 | 6 min  |
-| 144 | [《Go 语言高级编程》的故事](https://xargin.com/stories-of-advanced-go-programming/) | 2021-08-01 | 6 min  |
-| 143 | [GraphQL 的限流难题](https://xargin.com/ratelimit-graphql/) | 2021-07-30 | 7 min  |
-| 142 | [微服务架构模式的一点总结](https://xargin.com/microservices-patterns/) | 2021-07-29 | 13 min  |
-| 141 | [非协作式抢占详解](https://xargin.com/non-cooperative-preemption/) | 2021-07-25 | 1 min  |
-| 140 | [关于静态分析的科普](https://xargin.com/static-analysis/) | 2021-07-23 | 9 min  |
-| 139 | [换掉 gitalk](https://xargin.com/deprecate-gitalk/) | 2021-07-22 | 1 min  |
-| 138 | [为什么大公司里的垃圾系统也能保持稳定](https://xargin.com/why-rubbish-in-huge-corp-can-remain-stable/) | 2021-07-11 | 6 min  |
-| 137 | [Go 语言中的一些非常规优化](https://xargin.com/unusual-opt-in-go/) | 2021-07-04 | 5 min  |
-| 136 | [用 litmus 验证 x86 内存序](https://xargin.com/litmus-test/) | 2021-06-14 | 3 min  |
-| 135 | [blog 内嵌动画测试](https://xargin.com/nest-test/) | 2021-06-08 | 1 min  |
-| 134 | [用 MQ 解耦其实是骗你的](https://xargin.com/mq-is-not-savior/) | 2021-05-30 | 5 min  |
-| 133 | [nocode 和 lowcode](https://xargin.com/lowcode-nocode-is-not-awesome/) | 2021-05-09 | 4 min  |
-| 132 | [Fail at Scale](https://xargin.com/fail-at-scale/) | 2021-05-07 | 16 min  |
-| 131 | [The Tail at Scale](https://xargin.com/tail-at-scale/) | 2021-05-04 | 10 min  |
-| 130 | [那些画图工具们](https://xargin.com/diagram-tools-intro/) | 2021-05-02 | 6 min  |
-| 129 | [《写作的逻辑》简单读书笔记](https://xargin.com/notes-on-logic-writing/) | 2021-04-28 | 2 min  |
-| 128 | [大型系统在线问题诊断与定位](https://xargin.com/continuous-profiling/) | 2021-04-15 | 6 min  |
-| 127 | [随便说说 living documentation](https://xargin.com/about-living-doc/) | 2021-04-13 | 7 min  |
-| 126 | [一种持锁被调度的情况](https://xargin.com/schedule-when-holding-lock-causes-latency-spike/) | 2021-04-08 | 4 min  |
-| 125 | [Go 应用的性能优化](https://xargin.com/go-perf-optimization/) | 2021-03-30 | 18 min  |
-| 124 | [在业务系统中寻找技术含量](https://xargin.com/seeking-for-high-tech-in-business-system-dev/) | 2021-03-23 | 8 min  |
-| 123 | [一些 eink 设备](https://xargin.com/some-eink-devices/) | 2021-03-20 | 6 min  |
-| 122 | [go mod 之痛](https://xargin.com/go-mod-hurt-gophers/) | 2021-03-04 | 7 min  |
-| 121 | [why do we need generics?](https://xargin.com/why-do-we-need-generics/) | 2021-03-01 | 5 min  |
-| 120 | [开源说线上分享](https://xargin.com/open-src-show/) | 2021-02-20 | 15 min  |
-| 119 | [一个 bad file descriptor 的问题](https://xargin.com/case-bad-file-descriptor/) | 2021-02-19 | 3 min  |
-| 118 | [open coded defer 是怎么实现的](https://xargin.com/open-coded-defer-in-go-1-14/) | 2020-12-03 | 15 min  |
-| 117 | [用 subsetting 限制连接池中的连接数量](https://xargin.com/limiting-conn-wih-subset/) | 2020-11-28 | 6 min  |
-| 116 | [packetdrill 简介](https://xargin.com/packetdrill-intro/) | 2020-11-04 | 19 min  |
-| 115 | [无人值守的自动 dump(二)](https://xargin.com/autodumper-for-go-ii/) | 2020-11-03 | 7 min  |
-| 114 | [10 个让微服务完全失败的 tips](https://xargin.com/10-tips/) | 2020-10-06 | 12 min  |
-| 113 | [极端情况下收缩 Go 的线程数](https://xargin.com/shrink-go-threads/) | 2020-09-18 | 2 min  |
-| 112 | [在 Go 语言中 Patch 非导出函数](https://xargin.com/patching-private-function-in-go/) | 2020-09-04 | 4 min  |
-| 111 | [无人值守的自动 dump(一)](https://xargin.com/autodumper-for-go/) | 2020-08-13 | 4 min  |
-| 110 | [Go context](https://xargin.com/go-context/) | 2020-07-11 | 1 min  |
-| 109 | [一些连接池相关的总结](https://xargin.com/some-connection-pool/) | 2020-07-11 | 15 min  |
-| 108 | [reviewdog](https://xargin.com/add-reviewdog-for-your-project/) | 2020-07-06 | 3 min  |
-| 107 | [fasthttp 快在哪里](https://xargin.com/why-fasthttp-is-fast-and-the-cost-of-it/) | 2020-06-14 | 5 min  |
-| 106 | [架构的腐化是必然的](https://xargin.com/every-arch-will-finally-become-shit/) | 2020-06-06 | 8 min  |
-| 105 | [为什么提升 Go 项目的测试覆盖率有点难](https://xargin.com/its-hard-to-improve-go-proj-coverage/) | 2020-05-01 | 5 min  |
-| 104 | [go mod 的智障版本选择](https://xargin.com/go-mod-is-rubbish/) | 2020-04-19 | 3 min  |
-| 103 | [工程师应该怎么学习](https://xargin.com/how-to-learn/) | 2020-02-26 | 16 min  |
-| 102 | [slice 类型内存泄露的逻辑](https://xargin.com/logic-of-slice-memory-leak/) | 2020-01-19 | 4 min  |
-| 101 | [生于非阻塞，死于日志](https://xargin.com/born-from-nb-die-in-log/) | 2020-01-13 | 2 min  |
-| 100 | [map 并发崩溃一例](https://xargin.com/map-concurrent-throw/) | 2020-01-09 | 4 min  |
-| 99 | [一个空 struct 的“坑”](https://xargin.com/addr-of-empty-struct-may-not-eq/) | 2020-01-06 | 3 min  |
-| 98 | [MQ 正在变成臭水沟](https://xargin.com/mq-is-becoming-sewer/) | 2019-11-24 | 8 min  |
-| 97 | [ACL 和俄罗斯套娃](https://xargin.com/acl-and-matryoshka/) | 2019-11-02 | 4 min  |
-| 96 | [依赖反转相关](https://xargin.com/about-dip/) | 2019-10-20 | 4 min  |
-| 95 | [一个和 RLock 有关的小故事](https://xargin.com/a-rlock-story/) | 2019-10-13 | 2 min  |
-| 94 | [从 nginx 切换到 caddy](https://xargin.com/migrate-from-nginx-to-caddy/) | 2019-10-04 | 2 min  |
-| 93 | [为什么 Go 模块在下游服务抖动恢复后，CPU 占用无法恢复](https://xargin.com/cpu-idle-cannot-recover-after-peak-load/) | 2019-09-22 | 5 min  |
-| 92 | [查看 Go 的代码优化过程](https://xargin.com/go-compiler-opt/) | 2019-09-22 | 4 min  |
-| 91 | [Go 1.13 defer 的变化](https://xargin.com/go-1-13-defer-change/) | 2019-09-04 | 3 min  |
-| 90 | [一劳永逸接入所有下游数据系统](https://xargin.com/integrate-downstream-data-system-all-in-one/) | 2019-08-31 | 8 min  |
-| 89 | [talent-plan tidb 部分个人题解-week 2](https://xargin.com/talent-plan-week2-solution/) | 2019-05-11 | 4 min  |
-| 88 | [talent-plan tidb 部分个人题解-week 1](https://xargin.com/talent-plan-week1-solution/) | 2019-05-11 | 2 min  |
-| 87 | [一些问题的答案](https://xargin.com/answers-for-some-interview-questions/) | 2019-05-11 | 8 min  |
-| 86 | [微服务的灾难-康威定律和 KPI 冲突](https://xargin.com/disaster-of-microservice-conway-law/) | 2019-05-03 | 5 min  |
-| 85 | [微服务的灾难-最终一致](https://xargin.com/disaster-of-microservice-evconst/) | 2019-05-03 | 5 min  |
-| 84 | [微服务的灾难-依赖地狱](https://xargin.com/disaster-of-microservice-dephell/) | 2019-05-02 | 5 min  |
-| 83 | [微服务的灾难-拆分](https://xargin.com/disaster-of-microservice-divide/) | 2019-05-02 | 7 min  |
-| 82 | [微服务的灾难-技术栈](https://xargin.com/disaster-of-microservice-techstack/) | 2019-05-01 | 5 min  |
-| 81 | [微服务的灾难-通用语言](https://xargin.com/disaster-of-microservice-ul/) | 2019-05-01 | 5 min  |
-| 80 | [流式计算中的分布式快照](https://xargin.com/distributed-snapshot-in-stream-sys/) | 2019-04-14 | 9 min  |
-| 79 | [一套实时特征系统的迭代过程](https://xargin.com/feature-system-dev/) | 2019-04-13 | 15 min  |
-| 78 | [基于 Go 的内置 Parser 打造轻量级规则引擎](https://xargin.com/rule-engine-on-go-parser/) | 2019-02-08 | 6 min  |
-| 77 | [2018 总结 && 2019 目标](https://xargin.com/2018-summary-and-2019-plan/) | 2019-02-06 | 5 min  |
-| 76 | [在 ghost 中支持 mermaid](https://xargin.com/support-mermaid-in-ghost-blog/) | 2019-01-24 | 1 min  |
-| 75 | [几个 Go 系统可能遇到的锁问题](https://xargin.com/lock-contention-in-go/) | 2019-01-06 | 7 min  |
-| 74 | [中台的末路](https://xargin.com/the-death-of-middleground/) | 2019-01-01 | 16 min  |
-| 73 | [Go 系列文章 11: semaphore](https://xargin.com/go-sema/) | 2018-11-24 | 12 min  |
-| 72 | [Go 系列文章 10: sync](https://xargin.com/go-sync/) | 2018-10-04 | 15 min  |
-| 71 | [Go 1.9.2 的 bug](https://xargin.com/go-bug/) | 2018-09-17 | 4 min  |
-| 70 | [松一口气](https://xargin.com/relax/) | 2018-09-01 | 1 min  |
-| 69 | [Go 系列文章 9: slice](https://xargin.com/go-slice/) | 2018-08-31 | 7 min  |
-| 68 | [Go 系列文章 8: select](https://xargin.com/go-select/) | 2018-07-16 | 13 min  |
-| 67 | [Go 系列文章 7: map](https://xargin.com/go-map/) | 2018-07-07 | 1 min  |
-| 66 | [packt 出版的书吐槽](https://xargin.com/diss-packt/) | 2018-07-04 | 3 min  |
-| 65 | [Go 系列文章6: syscall](https://xargin.com/syscall/) | 2018-06-28 | 13 min  |
-| 64 | [Go 系列文章5 : 定时器](https://xargin.com/go-timer/) | 2018-06-23 | 15 min  |
-| 63 | [concurrency in go 读书笔记](https://xargin.com/concurrency-in-go-notes/) | 2018-06-18 | 5 min  |
-| 62 | [Go 系列文章4 : 调度器](https://xargin.com/go-scheduler/) | 2018-06-17 | 45 min  |
+| 115 | [新加坡保本理财指南](https://xargin.com/invest-in-cash-fund/) | 2023-11-12 | 4 min  |
+| 114 | [杂谈](https://xargin.com/misc/) | 2023-07-30 | 6 min  |
+| 113 | [中台 2023](https://xargin.com/complete-deah-for-middleplatform/) | 2023-04-24 | 8 min  |
+| 112 | [给面试官一点小小的 gpt 震撼](https://xargin.com/the-death-of-baguwen/) | 2023-03-26 | 4 min  |
+| 111 | [下一次工业革命近在眼前了](https://xargin.com/winter-is-coming/) | 2023-02-11 | 7 min  |
+| 110 | [Google 用了十年的 subset 算法被换掉了](https://xargin.com/google-rocksteadier-subset/) | 2022-12-10 | 10 min  |
+| 109 | [sarama producer hang 又一例](https://xargin.com/sarama-producer-hang-another-case/) | 2022-11-06 | 8 min  |
+| 108 | [微服务税](https://xargin.com/microservice-tax-and-grpc-mock/) | 2022-10-16 | 7 min  |
+| 107 | [平台到底有什么价值](https://xargin.com/value-of-platform/) | 2022-09-03 | 7 min  |
+| 106 | [aws 上 kafka 服务更新导致断连一例](https://xargin.com/aws-produce-hang-case/) | 2022-08-20 | 11 min  |
+| 105 | [为什么大公司讲的效率如此虚伪](https://xargin.com/what-they-say-is-not-true/) | 2022-07-16 | 11 min  |
+| 104 | [怎样提升研发效率(1)](https://xargin.com/how-to-improve-dev-efficiency/) | 2022-06-25 | 7 min  |
+| 103 | [go-redis 和 redis server 版本错位导致的高延时问题一例](https://xargin.com/go-redis-v6-and-redis-server-6-are-not-compatible/) | 2022-06-19 | 8 min  |
+| 102 | [memory ballast 和 gc tuner 成为历史](https://xargin.com/the-new-api-for-heap-limit/) | 2022-06-13 | 3 min  |
+| 101 | [为什么要旗帜鲜明地反对 orm 和 sql builder](https://xargin.com/you-should-avoid-orm-and-sql-builder/) | 2022-06-05 | 7 min  |
+| 100 | [Go 语言的 GC 实现分析](https://xargin.com/impl-of-go-gc/) | 2022-04-08 | 21 min  |
+| 99 | [自动调整 GOGC 优化 GO 的 GC CPU 占用](https://xargin.com/dynamic-gogc/) | 2022-01-10 | 9 min  |
+| 98 | [为什么你不应该接受有 race 的代码](https://xargin.com/why-you-should-reject-racy-code/) | 2021-12-25 | 3 min  |
+| 97 | [是什么影响了我的接口延迟](https://xargin.com/why-queueing-theory/) | 2021-12-14 | 5 min  |
+| 96 | [lyft 的线下开发环境秘籍](https://xargin.com/lyft-offline-env/) | 2021-12-12 | 4 min  |
+| 95 | [三份优化相关的材料](https://xargin.com/some-recent-opt-share/) | 2021-12-04 | 1 min  |
+| 94 | [2020 年学到了什么](https://xargin.com/what-i-learn-at-alibaba/) | 2021-11-29 | 17 min  |
+| 93 | [Software engineering at Google 笔记(二)](https://xargin.com/software-engineering-at-google-part2/) | 2021-11-24 | 16 min  |
+| 92 | [Software Engineering at Google 笔记(一)](https://xargin.com/software-engineering-at-google-part1/) | 2021-11-08 | 4 min  |
+| 91 | [DDD 到底是垃圾还是银弹](https://xargin.com/is-ddd-garbage-or-silver-bullet/) | 2021-10-29 | 12 min  |
+| 90 | [怎么快速读完一本书](https://xargin.com/how-to-read-fast/) | 2021-10-20 | 5 min  |
+| 89 | [Stop Reading The News](https://xargin.com/stop-reading-the-news/) | 2021-10-05 | 7 min  |
+| 88 | [righting software 读书笔记](https://xargin.com/righting-software-notes/) | 2021-09-23 | 19 min  |
+| 87 | [关于复杂度的一些想法](https://xargin.com/something-about-complexity/) | 2021-09-15 | 9 min  |
+| 86 | [云原生如何使我们失业](https://xargin.com/cloud-native-and-future-of-developer/) | 2021-09-05 | 9 min  |
+| 85 | [简单看看 Go 1.17 的新调用规约](https://xargin.com/go1-17-new-calling-convention/) | 2021-08-29 | 5 min  |
+| 84 | [Google 的 “行星级” cron 系统设计](https://xargin.com/google-cron-design/) | 2021-08-15 | 6 min  |
+| 83 | [《Go 语言高级编程》的故事](https://xargin.com/stories-of-advanced-go-programming/) | 2021-08-01 | 6 min  |
+| 82 | [GraphQL 的限流难题](https://xargin.com/ratelimit-graphql/) | 2021-07-30 | 7 min  |
+| 81 | [微服务架构模式的一点总结](https://xargin.com/microservices-patterns/) | 2021-07-29 | 13 min  |
+| 80 | [非协作式抢占详解](https://xargin.com/non-cooperative-preemption/) | 2021-07-25 | 1 min  |
+| 79 | [关于静态分析的科普](https://xargin.com/static-analysis/) | 2021-07-23 | 9 min  |
+| 78 | [换掉 gitalk](https://xargin.com/deprecate-gitalk/) | 2021-07-22 | 1 min  |
+| 77 | [为什么大公司里的垃圾系统也能保持稳定](https://xargin.com/why-rubbish-in-huge-corp-can-remain-stable/) | 2021-07-11 | 6 min  |
+| 76 | [Go 语言中的一些非常规优化](https://xargin.com/unusual-opt-in-go/) | 2021-07-04 | 5 min  |
+| 75 | [用 litmus 验证 x86 内存序](https://xargin.com/litmus-test/) | 2021-06-14 | 3 min  |
+| 74 | [blog 内嵌动画测试](https://xargin.com/nest-test/) | 2021-06-08 | 1 min  |
+| 73 | [用 MQ 解耦其实是骗你的](https://xargin.com/mq-is-not-savior/) | 2021-05-30 | 5 min  |
+| 72 | [nocode 和 lowcode](https://xargin.com/lowcode-nocode-is-not-awesome/) | 2021-05-09 | 4 min  |
+| 71 | [Fail at Scale](https://xargin.com/fail-at-scale/) | 2021-05-07 | 16 min  |
+| 70 | [The Tail at Scale](https://xargin.com/tail-at-scale/) | 2021-05-04 | 10 min  |
+| 69 | [那些画图工具们](https://xargin.com/diagram-tools-intro/) | 2021-05-02 | 6 min  |
+| 68 | [《写作的逻辑》简单读书笔记](https://xargin.com/notes-on-logic-writing/) | 2021-04-28 | 2 min  |
+| 67 | [大型系统在线问题诊断与定位](https://xargin.com/continuous-profiling/) | 2021-04-15 | 6 min  |
+| 66 | [随便说说 living documentation](https://xargin.com/about-living-doc/) | 2021-04-13 | 7 min  |
+| 65 | [一种持锁被调度的情况](https://xargin.com/schedule-when-holding-lock-causes-latency-spike/) | 2021-04-08 | 4 min  |
+| 64 | [Go 应用的性能优化](https://xargin.com/go-perf-optimization/) | 2021-03-30 | 18 min  |
+| 63 | [在业务系统中寻找技术含量](https://xargin.com/seeking-for-high-tech-in-business-system-dev/) | 2021-03-23 | 8 min  |
+| 62 | [一些 eink 设备](https://xargin.com/some-eink-devices/) | 2021-03-20 | 6 min  |
+| 61 | [go mod 之痛](https://xargin.com/go-mod-hurt-gophers/) | 2021-03-04 | 7 min  |
+| 60 | [why do we need generics?](https://xargin.com/why-do-we-need-generics/) | 2021-03-01 | 5 min  |
+| 59 | [开源说线上分享](https://xargin.com/open-src-show/) | 2021-02-20 | 15 min  |
+| 58 | [一个 bad file descriptor 的问题](https://xargin.com/case-bad-file-descriptor/) | 2021-02-19 | 3 min  |
+| 57 | [open coded defer 是怎么实现的](https://xargin.com/open-coded-defer-in-go-1-14/) | 2020-12-03 | 15 min  |
+| 56 | [用 subsetting 限制连接池中的连接数量](https://xargin.com/limiting-conn-wih-subset/) | 2020-11-28 | 6 min  |
+| 55 | [packetdrill 简介](https://xargin.com/packetdrill-intro/) | 2020-11-04 | 19 min  |
+| 54 | [无人值守的自动 dump(二)](https://xargin.com/autodumper-for-go-ii/) | 2020-11-03 | 7 min  |
+| 53 | [10 个让微服务完全失败的 tips](https://xargin.com/10-tips/) | 2020-10-06 | 12 min  |
+| 52 | [极端情况下收缩 Go 的线程数](https://xargin.com/shrink-go-threads/) | 2020-09-18 | 2 min  |
+| 51 | [在 Go 语言中 Patch 非导出函数](https://xargin.com/patching-private-function-in-go/) | 2020-09-04 | 4 min  |
+| 50 | [无人值守的自动 dump(一)](https://xargin.com/autodumper-for-go/) | 2020-08-13 | 4 min  |
+| 49 | [Go context](https://xargin.com/go-context/) | 2020-07-11 | 1 min  |
+| 48 | [一些连接池相关的总结](https://xargin.com/some-connection-pool/) | 2020-07-11 | 15 min  |
+| 47 | [reviewdog](https://xargin.com/add-reviewdog-for-your-project/) | 2020-07-06 | 3 min  |
+| 46 | [fasthttp 快在哪里](https://xargin.com/why-fasthttp-is-fast-and-the-cost-of-it/) | 2020-06-14 | 5 min  |
+| 45 | [架构的腐化是必然的](https://xargin.com/every-arch-will-finally-become-shit/) | 2020-06-06 | 8 min  |
+| 44 | [为什么提升 Go 项目的测试覆盖率有点难](https://xargin.com/its-hard-to-improve-go-proj-coverage/) | 2020-05-01 | 5 min  |
+| 43 | [go mod 的智障版本选择](https://xargin.com/go-mod-is-rubbish/) | 2020-04-19 | 3 min  |
+| 42 | [工程师应该怎么学习](https://xargin.com/how-to-learn/) | 2020-02-26 | 16 min  |
+| 41 | [slice 类型内存泄露的逻辑](https://xargin.com/logic-of-slice-memory-leak/) | 2020-01-19 | 4 min  |
+| 40 | [生于非阻塞，死于日志](https://xargin.com/born-from-nb-die-in-log/) | 2020-01-13 | 2 min  |
+| 39 | [map 并发崩溃一例](https://xargin.com/map-concurrent-throw/) | 2020-01-09 | 4 min  |
+| 38 | [一个空 struct 的“坑”](https://xargin.com/addr-of-empty-struct-may-not-eq/) | 2020-01-06 | 3 min  |
+| 37 | [MQ 正在变成臭水沟](https://xargin.com/mq-is-becoming-sewer/) | 2019-11-24 | 8 min  |
+| 36 | [ACL 和俄罗斯套娃](https://xargin.com/acl-and-matryoshka/) | 2019-11-02 | 4 min  |
+| 35 | [依赖反转相关](https://xargin.com/about-dip/) | 2019-10-20 | 4 min  |
+| 34 | [一个和 RLock 有关的小故事](https://xargin.com/a-rlock-story/) | 2019-10-13 | 2 min  |
+| 33 | [从 nginx 切换到 caddy](https://xargin.com/migrate-from-nginx-to-caddy/) | 2019-10-04 | 2 min  |
+| 32 | [为什么 Go 模块在下游服务抖动恢复后，CPU 占用无法恢复](https://xargin.com/cpu-idle-cannot-recover-after-peak-load/) | 2019-09-22 | 5 min  |
+| 31 | [查看 Go 的代码优化过程](https://xargin.com/go-compiler-opt/) | 2019-09-22 | 4 min  |
+| 30 | [Go 1.13 defer 的变化](https://xargin.com/go-1-13-defer-change/) | 2019-09-04 | 3 min  |
+| 29 | [一劳永逸接入所有下游数据系统](https://xargin.com/integrate-downstream-data-system-all-in-one/) | 2019-08-31 | 8 min  |
+| 28 | [talent-plan tidb 部分个人题解-week 2](https://xargin.com/talent-plan-week2-solution/) | 2019-05-11 | 4 min  |
+| 27 | [talent-plan tidb 部分个人题解-week 1](https://xargin.com/talent-plan-week1-solution/) | 2019-05-11 | 2 min  |
+| 26 | [一些问题的答案](https://xargin.com/answers-for-some-interview-questions/) | 2019-05-11 | 8 min  |
+| 25 | [微服务的灾难-康威定律和 KPI 冲突](https://xargin.com/disaster-of-microservice-conway-law/) | 2019-05-03 | 5 min  |
+| 24 | [微服务的灾难-最终一致](https://xargin.com/disaster-of-microservice-evconst/) | 2019-05-03 | 5 min  |
+| 23 | [微服务的灾难-依赖地狱](https://xargin.com/disaster-of-microservice-dephell/) | 2019-05-02 | 5 min  |
+| 22 | [微服务的灾难-拆分](https://xargin.com/disaster-of-microservice-divide/) | 2019-05-02 | 7 min  |
+| 21 | [微服务的灾难-技术栈](https://xargin.com/disaster-of-microservice-techstack/) | 2019-05-01 | 5 min  |
+| 20 | [微服务的灾难-通用语言](https://xargin.com/disaster-of-microservice-ul/) | 2019-05-01 | 5 min  |
+| 19 | [流式计算中的分布式快照](https://xargin.com/distributed-snapshot-in-stream-sys/) | 2019-04-14 | 9 min  |
+| 18 | [一套实时特征系统的迭代过程](https://xargin.com/feature-system-dev/) | 2019-04-13 | 15 min  |
+| 17 | [基于 Go 的内置 Parser 打造轻量级规则引擎](https://xargin.com/rule-engine-on-go-parser/) | 2019-02-08 | 6 min  |
+| 16 | [2018 总结 && 2019 目标](https://xargin.com/2018-summary-and-2019-plan/) | 2019-02-06 | 5 min  |
+| 15 | [在 ghost 中支持 mermaid](https://xargin.com/support-mermaid-in-ghost-blog/) | 2019-01-24 | 1 min  |
+| 14 | [几个 Go 系统可能遇到的锁问题](https://xargin.com/lock-contention-in-go/) | 2019-01-06 | 7 min  |
+| 13 | [中台的末路](https://xargin.com/the-death-of-middleground/) | 2019-01-01 | 16 min  |
+| 12 | [Go 系列文章 11: semaphore](https://xargin.com/go-sema/) | 2018-11-24 | 12 min  |
+| 11 | [Go 系列文章 10: sync](https://xargin.com/go-sync/) | 2018-10-04 | 15 min  |
+| 10 | [Go 1.9.2 的 bug](https://xargin.com/go-bug/) | 2018-09-17 | 4 min  |
+| 9 | [松一口气](https://xargin.com/relax/) | 2018-09-01 | 1 min  |
+| 8 | [Go 系列文章 9: slice](https://xargin.com/go-slice/) | 2018-08-31 | 7 min  |
+| 7 | [Go 系列文章 8: select](https://xargin.com/go-select/) | 2018-07-16 | 13 min  |
+| 6 | [Go 系列文章 7: map](https://xargin.com/go-map/) | 2018-07-07 | 1 min  |
+| 5 | [packt 出版的书吐槽](https://xargin.com/diss-packt/) | 2018-07-04 | 3 min  |
+| 4 | [Go 系列文章6: syscall](https://xargin.com/syscall/) | 2018-06-28 | 13 min  |
+| 3 | [Go 系列文章5 : 定时器](https://xargin.com/go-timer/) | 2018-06-23 | 15 min  |
+| 2 | [concurrency in go 读书笔记](https://xargin.com/concurrency-in-go-notes/) | 2018-06-18 | 5 min  |
+| 1 | [](https://xargin.com/go-scheduler/) |  |  |
+| 45 min  |
 | 61 | [2018 年的几个目标](https://xargin.com/2018-plan/) | 2018-06-10 | 2 min  |
 | 60 | [livelock](https://xargin.com/livelock/) | 2018-06-09 | 3 min  |
 | 59 | [blog 升级了。。](https://xargin.com/blog-upgraded/) | 2018-06-09 | 1 min  |
