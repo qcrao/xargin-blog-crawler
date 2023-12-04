@@ -1,8 +1,9 @@
-页面更新时间（北京时间）：2023-12-03 20:17
+页面更新时间（北京时间）：2023-12-04 08:49
 
-文章总数：176
+文章总数：177
 | 序号 | 文章 | 发表时间 | 阅读时长 |
 | --- | --- | --- | --- |
+| 177 | [一些鬼故事](https://xargin.com/ghost-story/) | 2023-12-03 | 7 min  |
 | 176 | [新加坡保本理财指南](https://xargin.com/invest-in-cash-fund/) | 2023-11-12 | 4 min  |
 | 175 | [杂谈](https://xargin.com/misc/) | 2023-07-30 | 6 min  |
 | 174 | [中台 2023](https://xargin.com/complete-deah-for-middleplatform/) | 2023-04-24 | 8 min  |
