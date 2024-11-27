@@ -1,3 +1,6 @@
+为了避免在没有变化的情况下进行 commit，可以在执行 commit 之前检查文件是否有所改变。可以通过在 `Auto Commit and Push Changes` 步骤之前添加一个步骤来完成此操作。以下是优化后的 `crawler.yml`：
+
+```yaml
 name: Update Blog Archive
 
 on:
@@ -11,8 +14,6 @@ jobs:
   update_blog_archive:
     runs-on: ubuntu-latest
     permissions:
-      # Give the default GITHUB_TOKEN write permission to commit and push the
-      # added or changed files to the repository.
       contents: write
     steps:
       - name: Checkout Repository
@@ -28,9 +29,18 @@ jobs:
           go build -o blog_crawler
           ./blog_crawler
 
+      - name: Check for Changes
+        id: check_changes
+        run: |
+          git diff --exit-code || echo "changes" > changes_detected
+
       - name: Auto Commit and Push Changes
+        if: steps.check_changes.outputs.changes_detected == 'changes'
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "Update xargin_blogs.md"
           branch: master
           push_options: --force
+```
+
+通过添加 `Check for Changes` 步骤，可以在没有变化时避免进行 commit。
