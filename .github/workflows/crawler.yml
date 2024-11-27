@@ -1,6 +1,3 @@
-为了避免在没有变化的情况下进行 commit，可以在执行 commit 之前检查文件是否有所改变。可以通过在 `Auto Commit and Push Changes` 步骤之前添加一个步骤来完成此操作。以下是优化后的 `crawler.yml`：
-
-```yaml
 name: Update Blog Archive
 
 on:
@@ -41,6 +38,3 @@ jobs:
           commit_message: "Update xargin_blogs.md"
           branch: master
           push_options: --force
-```
-
-通过添加 `Check for Changes` 步骤，可以在没有变化时避免进行 commit。
